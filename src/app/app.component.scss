@@ -1,0 +1,44 @@
+.todo-section {
+    margin: 0 auto;
+    max-width: 680px;
+}
+
+.header-row {
+    background-color: #f7f5ef;
+    border-radius: 5px;
+    box-shadow: 0 0 1em #ccc;
+    color: #39364e;
+    display: grid;
+    font-weight: 700;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 15px;
+    padding: 1rem;
+}
+
+li {
+    list-style: none;
+}
+
+.item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 1em #ccc;
+    transition: all .2s ease-in-out;
+}
+
+.search-button {
+    background-color: #0C58C6;
+    border: 1px solid #0C58C6;
+    padding: 8px;
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+}
+
+.search-input {
+    padding: 10px;
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
